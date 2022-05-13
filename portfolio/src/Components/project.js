@@ -58,12 +58,12 @@ export default function Project(props) {
             </div>
             <div class='projectSocialDiv'>
               <div>
-              <a href="https://incomparable-choux-0f430c.netlify.app/">
+              <a href="https://github.com/MediogreCoder/SeveranceAPI">
                   <img class='projSocial' src={GitHubLogo} />
                   </a>
               </div>
               <div>
-              <a href="https://github.com/MediogreCoder/SeveranceAPI">
+              <a href="https://incomparable-choux-0f430c.netlify.app/">
                   <img class='projSocial' src={NetlifyLogo} />
                   </a>
               </div>

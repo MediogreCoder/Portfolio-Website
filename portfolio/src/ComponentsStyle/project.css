@@ -63,11 +63,15 @@
 }
 
 .projSocial{
- height: 50px;
+ height: 75px;
  width: auto;
  transition-duration: .5s;
 }
 
 .projSocial:hover {
  transform: scale(1.5);
+}
+
+#langtitle{
+  text-shadow: 1px 1px 0 whitesmoke;
 }

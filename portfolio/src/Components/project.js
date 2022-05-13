@@ -4,6 +4,7 @@ import Pokeball from '../images/pokemonbattler.png'
 import Severace from '../images/severance.png'
 import GitHubLogo from '../images/Octocat.png'
 import NetlifyLogo from '../images/logomark.png'
+import JS from '../images/javascript-plain.svg'
 
 export default function Project(props) {
 
@@ -69,7 +70,14 @@ export default function Project(props) {
             </div>
         </div>
         </div>
+        <div class='projTitle'>
+          <h1 id='langtitle'>Languages and Framwork</h1>
         </div>
+        <div>
+        <object data={JS} width="75" height="75"></object>
+        </div>
+      </div>
+      
       </div>
     );
   }

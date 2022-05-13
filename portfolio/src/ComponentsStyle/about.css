@@ -3,8 +3,9 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-image: url('../images/black\ infinity.png');
+  background-image: url('../images/white\ infinity.png');
   background-position: right;
+  background-color: #1D1D1D;
   background-size: cover;
   background-position-x: 400px;
   background-position-y: 20px;
@@ -18,7 +19,7 @@
 .aboutDiv{
   font-size: 35px;
   width: 800px;
-  color: #1D1D1D;
+  color: whitesmoke;
   margin-right: 200px;
   text-align: left;
 }

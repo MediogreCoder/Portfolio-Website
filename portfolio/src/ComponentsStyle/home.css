@@ -3,8 +3,7 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #1D1D1D;
-  background-image: url('../images/white\ infinity.png');
+  background-image: url('../images/black\ infinity.png');
   background-position: right;
   background-size: cover;
   background-position-x: 400px;
@@ -18,7 +17,7 @@
 
 .homeDiv{
   font-size: 40px;
-  color: whitesmoke;
+  color: #1D1D1D;
   margin-right: 200px;
   text-align: left;
 }

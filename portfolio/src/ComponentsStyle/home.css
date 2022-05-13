@@ -1,0 +1,25 @@
+.homeArea{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #1D1D1D;
+  background-image: url('../images/white\ infinity.png');
+  background-position: right;
+  background-size: cover;
+  background-position-x: 400px;
+  background-position-y: 20px;
+  background-repeat: no-repeat;
+}
+
+#welcomemsg{
+  font-size: 25px;
+}
+
+.homeDiv{
+  font-size: 40px;
+  color: whitesmoke;
+  margin-right: 200px;
+  text-align: left;
+}
+

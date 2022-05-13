@@ -1,0 +1,62 @@
+.projectArea{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #1D1D1D;
+  background-image: url('../images/white\ infinity.png');
+  background-position: right;
+  background-size: cover;
+  background-position-x: 400px;
+  background-position-y: 20px;
+  background-repeat: no-repeat;
+}
+.projTitle{
+  font-size: 40px;
+}
+
+.projectDiv{
+  color: whitesmoke;
+}
+
+.projectBox{
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  
+}
+
+#sunny{
+  height:85%;
+  width: 85%;
+  object-fit: cover;
+}
+
+
+#poke{
+  height:85%;
+  width: 85%;
+  object-fit: cover;
+}
+
+#sev{
+  height:85%;
+  width: 85%;
+  object-fit: cover;
+}
+
+.projectSocialDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.projSocial{
+ height: 50px;
+ width: auto;
+ transition-duration: .5s;
+}
+
+.projSocial:hover {
+ transform: scale(1.5);
+}

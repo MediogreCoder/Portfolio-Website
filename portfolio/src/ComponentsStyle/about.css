@@ -1,0 +1,24 @@
+.aboutArea{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('../images/black\ infinity.png');
+  background-position: right;
+  background-size: cover;
+  background-position-x: 400px;
+  background-position-y: 20px;
+  background-repeat: no-repeat;
+}
+
+#welcomemsg{
+  font-size: 25px;
+}
+
+.aboutDiv{
+  font-size: 35px;
+  width: 800px;
+  color: #1D1D1D;
+  margin-right: 200px;
+  text-align: left;
+}

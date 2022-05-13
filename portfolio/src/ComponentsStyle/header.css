@@ -1,0 +1,44 @@
+.mainLogo{
+  height: 200px;
+  width: auto;
+  left: 0px;
+}
+
+
+.mainHeaderContainer{
+  background-color: #f5f410;
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  color: #1D1D1D;
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+}
+
+.headerSect{
+margin-top: 25px;
+margin-bottom: 25px;
+}
+
+.socials{
+  padding-top: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#LinkedinLogo {
+  padding-right: 5px;
+  height: 50px;
+  width: auto;
+}
+
+#GithubLogo {
+  padding-left: 5px;
+  height: 50px;
+  width: auto;
+}
+
+h2:hover{
+  color: whitesmoke;
+}
+

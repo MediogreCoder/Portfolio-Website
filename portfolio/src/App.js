@@ -51,9 +51,9 @@ function App() {
            <Project
             projectRef={projectRef}
           />
-          {/* <Contact
+          <Contact
             contactRef={contactRef}
-          /> */}
+          />
         </div>
       </div>
       </div>

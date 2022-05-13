@@ -20,9 +20,6 @@ export default function Project(props) {
             <div id="p1img">
               <img id="sunny" src={Sun}></img>
             </div>
-            <div>
-              <h2>SunnyScore</h2>
-            </div>
             <div class='projectSocialDiv'>
               <div>
               <a href="https://github.com/MediogreCoder/SunnyBar">
@@ -41,9 +38,6 @@ export default function Project(props) {
             <div id="p2img">
               <img id="poke" src={Pokeball}></img>
             </div>
-            <div>
-              <h2>Pokemon Battler</h2>
-            </div>
             <div class='projectSocialDiv'>
               <div>
               <a href="https://github.com/MediogreCoder/API-Pokemon-Battler.git">
@@ -60,9 +54,6 @@ export default function Project(props) {
         <div class="p3">
             <div id="p3img">
               <img id="sev" src={Severace}></img>
-            </div>
-            <div>
-              <h2>Severance</h2>
             </div>
             <div class='projectSocialDiv'>
               <div>

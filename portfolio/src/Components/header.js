@@ -20,17 +20,17 @@ export default function Header(props) {
     <div class='headerContainer'>
       <div class="headerList">
         <div class="headerSect">
-          <h2 onClick={handleHomeClick}>Home</h2>
+          <h2 class="sidelinks" onClick={handleHomeClick}>Home</h2>
         </div>
         <div class="headerSect">
-        <h2 onClick={handleAboutClick}>About</h2>
+        <h2 class="sidelinks" onClick={handleAboutClick}>About</h2>
         </div>
         <div  class="headerSect">
-        <h2 onClick={handleProjectClick}>Projects</h2>
+        <h2 class="sidelinks" onClick={handleProjectClick}>Projects</h2>
         </div>
-        {/* <div class="headerSect">
-        <h2 onClick={handleContactClick} >Contact</h2>
-       </div> */}
+        <div class="headerSect">
+        <h2 class="sidelinks" onClick={handleContactClick} >Contact</h2>
+       </div>
       </div>
       </div>
       <div class='socials'>

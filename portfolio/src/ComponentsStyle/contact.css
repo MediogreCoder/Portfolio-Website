@@ -1,3 +1,26 @@
 .contactArea{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 100vh;
+  background-image: url('../images/white\ infinity.png');
+  background-position: right;
+  background-color: #1D1D1D;
+  background-size: cover;
+  background-position-x: 400px;
+  background-position-y: 20px;
+  background-repeat: no-repeat;
+}
+
+.contactDiv{
+  font-size: 35px;
+  width: 800px;
+  color: whitesmoke;
+  margin-right: 200px;
+  text-align: left;
+}
+
+a{
+  text-decoration: none;
+  color: whitesmoke;
 }

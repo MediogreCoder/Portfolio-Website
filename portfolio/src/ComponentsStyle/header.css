@@ -38,7 +38,7 @@ margin-bottom: 25px;
   width: auto;
 }
 
-h2:hover{
+.sidelinks:hover{
   color: whitesmoke;
 }
 

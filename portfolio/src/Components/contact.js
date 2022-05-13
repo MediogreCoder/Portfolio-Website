@@ -6,9 +6,9 @@ export default function Contact(props) {
   return (
     <div ref={contactRef} class="contactArea">
     <div class="contactDiv">
-        <h1>Lets Connect!</h1>
-        <h3>Email: em8258580@gmail.com</h3>
-        <h3>Resume:<a href={Resume}> Click here!</a></h3>
+        <h1 id="contactTitle">Lets Connect!</h1>
+        <h2>Email: em8258580@gmail.com</h2>
+        <h2>Resume:<a href={Resume}> Click here!</a></h2>
       </div>
   </div>
     );

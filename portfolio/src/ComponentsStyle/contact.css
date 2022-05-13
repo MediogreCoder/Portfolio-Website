@@ -13,14 +13,16 @@
 }
 
 .contactDiv{
-  font-size: 35px;
   width: 800px;
   color: whitesmoke;
-  margin-right: 200px;
   text-align: left;
 }
 
 a{
   text-decoration: none;
   color: whitesmoke;
+}
+
+#contactTitle{
+  font-size: 40px;
 }

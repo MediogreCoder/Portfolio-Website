@@ -28,7 +28,7 @@ export default function Project(props) {
               </a>
               </div>
               <div>
-              <a href="https://chic-tiramisu-3fb59f.netlify.app/">
+              <a href="https://sunnyscore.netlify.app/">
                   <img class='projSocial' src={NetlifyLogo} />
               </a>
               </div>

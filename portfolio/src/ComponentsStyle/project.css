@@ -23,7 +23,8 @@ width: 1200px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  height: 400px;
+  align-content: space-around;
+  height: 500px;
   
 }
 

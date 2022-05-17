@@ -1,9 +1,12 @@
 section.slideshow{
   width: 80%;
+  align-content: space-around;
+
 }
 section.slideshow div.slide-holder{
   display: flex;
   justify-content: space-evenly;
+  
   align-items: center;
   flex-direction: row;
 
@@ -51,5 +54,8 @@ section.slideshow div.slideshow-controller span:active{
   text-shadow: 3px 3px 5px #1D1D1D;
   background: #f5f410;
   box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+}
 
+.projectSocialDiv{
+margin-top: 35px;
 }

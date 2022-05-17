@@ -54,6 +54,7 @@ function App() {
           <Contact
             contactRef={contactRef}
           />
+          
         </div>
       </div>
       </div>

@@ -1,9 +1,10 @@
 import '../ComponentsStyle/project.css'
-import Sun from '../images/Sunny.png'
-import Pokeball from '../images/pokemonbattler.png'
-import Severace from '../images/severance.png'
 import GitHubLogo from '../images/Octocat.png'
 import NetlifyLogo from '../images/logomark.png'
+import Slideshow from './slideShow.js'
+// import ImageSlider from './projectImageSlider'
+// import { SliderData } from './projectSliderData'
+
 
 export default function Project(props) {
 
@@ -14,9 +15,28 @@ export default function Project(props) {
       <div class="projectDiv">
         <div class='projTitle'>
           <h1>Projects</h1>
+          
           </div>
         <div class='projectBox'>
-          <div class="p1">
+          <Slideshow
+          images={[
+            'https://i.imgur.com/dHo7TcI.png',
+            'https://i.imgur.com/N0NEGhS.png',
+            'https://i.imgur.com/yumppmR.png'
+          ]}
+          links={[
+            'https://sunnyscore.netlify.app/',
+            'https://statuesque-faloodeh-0c0893.netlify.app/',
+            'https://incomparable-choux-0f430c.netlify.app/'
+          ]}
+          ghlinks={[
+            'https://github.com/MediogreCoder/SunnyBar',
+            'https://github.com/MediogreCoder/API-Pokemon-Battler.git',
+            'https://github.com/MediogreCoder/SeveranceAPI'
+          ]}
+          />
+        {/* <ImageSlider slides={SliderData} /> */}
+          {/* <div class="p1">
             <div id="p1img">
               <img id="sunny" src={Sun} alt='screenshot'></img>
             </div>
@@ -67,7 +87,7 @@ export default function Project(props) {
                   </a>
               </div>
             </div>
-        </div>
+        </div> */}
         </div>
       </div>
       

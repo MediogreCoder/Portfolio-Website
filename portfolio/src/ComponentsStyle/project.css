@@ -16,12 +16,13 @@
 
 .projectDiv{
   color: #1D1D1D;
-
+width: 1200px;
 }
 
 .projectBox{
   display: flex;
   flex-direction: row;
+  justify-content: center;
   height: 400px;
   
 }

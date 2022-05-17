@@ -18,17 +18,17 @@ export default function Project(props) {
         <div class='projectBox'>
           <div class="p1">
             <div id="p1img">
-              <img id="sunny" src={Sun}></img>
+              <img id="sunny" src={Sun} alt='screenshot'></img>
             </div>
             <div class='projectSocialDiv'>
               <div>
               <a href="https://github.com/MediogreCoder/SunnyBar">
-                  <img class='projSocial' src={GitHubLogo} />
+                  <img class='projSocial' src={GitHubLogo} alt='location'/>
               </a>
               </div>
               <div>
               <a href="https://sunnyscore.netlify.app/">
-                  <img class='projSocial' src={NetlifyLogo} />
+                  <img class='projSocial' src={NetlifyLogo} alt='location'/>
               </a>
               </div>
             </div>
@@ -36,34 +36,34 @@ export default function Project(props) {
         </div>
         <div class="p2">
             <div id="p2img">
-              <img id="poke" src={Pokeball}></img>
+              <img id="poke" src={Pokeball} alt='screenshot'></img>
             </div>
             <div class='projectSocialDiv'>
               <div>
               <a href="https://github.com/MediogreCoder/API-Pokemon-Battler.git">
-                  <img class='projSocial' src={GitHubLogo} />
+                  <img class='projSocial' src={GitHubLogo} alt='location'/>
                 </a>
               </div>
             <div>
             <a href="https://statuesque-faloodeh-0c0893.netlify.app/">
-                <img class='projSocial' src={NetlifyLogo} />
+                <img class='projSocial' src={NetlifyLogo} alt='location'/>
                 </a>
               </div>
             </div>
         </div>
         <div class="p3">
             <div id="p3img">
-              <img id="sev" src={Severace}></img>
+              <img id="sev" src={Severace} alt='screenshot'></img>
             </div>
             <div class='projectSocialDiv'>
               <div>
               <a href="https://github.com/MediogreCoder/SeveranceAPI">
-                  <img class='projSocial' src={GitHubLogo} />
+                  <img class='projSocial' src={GitHubLogo} alt='location'/>
                   </a>
               </div>
               <div>
               <a href="https://incomparable-choux-0f430c.netlify.app/">
-                  <img class='projSocial' src={NetlifyLogo} />
+                  <img class='projSocial' src={NetlifyLogo} alt='location'/>
                   </a>
               </div>
             </div>

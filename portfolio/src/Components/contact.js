@@ -8,7 +8,7 @@ export default function Contact(props) {
     <div class="contactDiv">
         <h1 id="contactTitle">Lets Connect!</h1>
         <h2>Email: em8258580@gmail.com</h2>
-        <h2>Resume:<a href={Resume}> Click here!</a></h2>
+        <h2>Resume:<a href={Resume} target="_blank" rel="noopener noreferrer"> Click here!</a></h2>
       </div>
   </div>
     );

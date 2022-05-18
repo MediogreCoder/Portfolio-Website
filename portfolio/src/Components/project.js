@@ -18,17 +18,21 @@ export default function Project(props) {
           images={[
             'https://i.imgur.com/dHo7TcI.png',
             'https://i.imgur.com/N0NEGhS.png',
-            'https://i.imgur.com/yumppmR.png'
+              'https://i.imgur.com/yumppmR.png',
+              'https://i.imgur.com/2TgrIMd.png'
+            
           ]}
           links={[
             'https://sunnyscore.netlify.app/',
             'https://statuesque-faloodeh-0c0893.netlify.app/',
-            'https://incomparable-choux-0f430c.netlify.app/'
+            'https://incomparable-choux-0f430c.netlify.app/',
+            'https://hatin.netlify.app/'
           ]}
           ghlinks={[
             'https://github.com/MediogreCoder/SunnyBar',
             'https://github.com/MediogreCoder/API-Pokemon-Battler.git',
-            'https://github.com/MediogreCoder/SeveranceAPI'
+            'https://github.com/MediogreCoder/SeveranceAPI',
+            'https://github.com/MediogreCoder/hater'
           ]}
           />
         </div>

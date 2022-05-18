@@ -1,12 +1,13 @@
 section.slideshow{
   width: 80%;
   align-content: space-around;
+  
 
 }
 section.slideshow div.slide-holder{
   display: flex;
   justify-content: space-evenly;
-  
+  transition-duration: 1s;
   align-items: center;
   flex-direction: row;
 

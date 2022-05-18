@@ -30,3 +30,12 @@ a:hover {
 #contactTitle{
   font-size: 40px;
 }
+
+#backhome{
+  margin-top: 50px;
+}
+
+#backhome:hover{
+  color: whitesmoke;
+  text-decoration: underline;
+}

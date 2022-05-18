@@ -1,8 +1,9 @@
 import './App.css';
-import React, { useRef } from 'react'
-import Header from '../src/Components/header'
-import Home from './Components/home'
-import About from './Components/about'
+import React, { useRef } from 'react';
+import Header from '../src/Components/header';
+import Home from './Components/home';
+import About from './Components/about';
+// import Languages from './Components/languages';
 import Project from './Components/project';
 import Contact from './Components/contact';
 
@@ -11,6 +12,7 @@ function App() {
   const aboutRef = useRef()
   const projectRef = useRef()
   const contactRef = useRef()
+  const languagesRef = useRef()
 
   function handleHomeClick() {
     homeRef.current.scrollIntoView({ behavior: 'smooth' })
@@ -28,6 +30,10 @@ function App() {
     contactRef.current.scrollIntoView({ behavior: 'smooth' })
   }
 
+  function handleLanguagesClick() {
+    languagesRef.current.scrollIntoView({ behavior: 'smooth' })
+  }
+
 
 
   return (
@@ -39,6 +45,7 @@ function App() {
             handleAboutClick={handleAboutClick}
             handleProjectClick={handleProjectClick}
             handleContactClick={handleContactClick}
+            handleLanguagesClick={handleLanguagesClick}
           />
         </div>
         <div class='mainContent'>
@@ -48,11 +55,15 @@ function App() {
           <About
             aboutRef={aboutRef}
           />
+           {/* <Languages
+            languagesRef={languagesRef}
+          /> */}
            <Project
             projectRef={projectRef}
           />
           <Contact
             contactRef={contactRef}
+            handleHomeClick={handleHomeClick}
           />
           
         </div>

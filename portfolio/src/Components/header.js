@@ -35,12 +35,12 @@ export default function Header(props) {
       </div>
       <div class='socials'>
         <div>
-          <a href="https://www.linkedin.com/in/evan-mei-47ba43b1/">
+          <a href="https://www.linkedin.com/in/evan-mei-47ba43b1/" target="_blank" rel="noopener noreferrer">
             <img id='LinkedinLogo' src={LinkedinLogo} alt="ll" />
             </a>
         </div>
         <div>
-          <a href="https://github.com/MediogreCoder">
+          <a href="https://github.com/MediogreCoder" target="_blank" rel="noopener noreferrer">
             <img id='GithubLogo' src={GitHubLogo} alt="gl"  />
           </a>
       </div>

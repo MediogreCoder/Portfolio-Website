@@ -4,8 +4,6 @@ import GitHubLogo from '../images/github-logo.png'
 import "../ComponentsStyle/header.css"
 
 
-
-
 export default function Header(props) {
   const handleHomeClick = props.handleHomeClick
   const handleAboutClick = props.handleAboutClick

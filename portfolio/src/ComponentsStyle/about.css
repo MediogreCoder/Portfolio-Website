@@ -44,5 +44,11 @@ width: auto;
 
 img {
 height: 80px;
+transition-duration: 1s;
+}
+
+img:hover {
+ transform: scale(1.3);
+
 }
 

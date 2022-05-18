@@ -13,12 +13,9 @@
   background-repeat: no-repeat;
 }
 
-#welcomemsg{
-  font-size: 25px;
-}
 
 .aboutDiv{
-  font-size: 35px;
+  font-size: 30px;
   width: 800px;
   color: whitesmoke;
   margin-right: 200px;

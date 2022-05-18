@@ -54,6 +54,7 @@ transform: scale(1.4);
   position: relative;
   text-decoration: none;
   width: auto;
+  color: #1D1D1D;
 }
 
 .sidelinks::before {
@@ -64,7 +65,7 @@ transform: scale(1.4);
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #000;
+  background-color: #1D1D1D;
   transform: scaleX(0);
   transition: transform 0.3s ease;
 }

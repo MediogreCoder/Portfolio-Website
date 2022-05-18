@@ -11,7 +11,6 @@ export default function Project(props) {
       <div class="projectDiv">
         <div class='projTitle'>
           <h1>Projects</h1>
-          
           </div>
         <div class='projectBox'>
           <Slideshow
@@ -34,6 +33,13 @@ export default function Project(props) {
             'https://github.com/MediogreCoder/SeveranceAPI',
             'https://github.com/MediogreCoder/hater'
           ]}
+            projectsummary={[
+                'Sunny Score is an application where you can check on the how many hours of sunlight your city gets a year',
+                'Pokemon Battler is a web game where you can choose between 3 generations (or random pokemon) of starters to simulate a pokemon battle',
+                'This is a Severance Episode Guide website where you can get a basic overview of each episode then go to the IMDB page to find out more',
+                'Hater is a toxic Twitter clone where you can hate on people, rehate(retweet), see who hatin on you and be a overall negative person'
+          ]
+          }
           />
         </div>
       </div>

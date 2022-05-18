@@ -3,7 +3,7 @@ import GitHubLogo from '../images/Octocat.png'
 import NetlifyLogo from '../images/logomark.png'
 import '../ComponentsStyle/slideshow.css'
 
-export default function Slideshow({images=[], links=[], ghlinks=[]}){
+export default function Slideshow({images=[], links=[], ghlinks=[], projectsummary=[]}){
   const [thumbnails, setThumnails] = useState([]);
 
   const [previousSlideStyle, setPreviousSlideStyle] = useState({});
@@ -11,8 +11,11 @@ export default function Slideshow({images=[], links=[], ghlinks=[]}){
 
   const [currentSlide, setCurrentSlide] = useState(0);
   const [currentSlideStyle, setCurrentSlideStyle] = useState({});
+
   const [currentGHLink, setGHCurrentLink] = useState(0);
   const [currentLink, setCurrentLink] = useState(0);
+
+  const [currentSummary, setCurrentSummary] = useState(0)
 
   //--------useffect to update slideshows----------
 
@@ -23,6 +26,7 @@ export default function Slideshow({images=[], links=[], ghlinks=[]}){
     });
     setCurrentLink(links[currentSlide])
     setGHCurrentLink(ghlinks[currentSlide])
+    setCurrentSummary(projectsummary[currentSlide])
 
     if(currentSlide>0){
         setPreviousSlideStyle({
@@ -55,6 +59,7 @@ function previous() {
       setCurrentSlide(currentSlide - 1);
       setCurrentLink(links[currentSlide - 1])
       setGHCurrentLink(ghlinks[currentSlide - 1])
+      setCurrentSummary(projectsummary[currentSlide -1])
 
     }else{
         setCurrentSlide(thumbnails.length-1);
@@ -66,6 +71,7 @@ function next(){
       setCurrentSlide(0);
       setCurrentLink(links[currentSlide + 1])
       setGHCurrentLink(ghlinks[currentSlide + 1])
+      setCurrentSummary(projectsummary[currentSlide + 1])
     }else{
         setCurrentSlide(currentSlide+1);
     }
@@ -75,6 +81,9 @@ function next(){
 
 return (
   <section className="slideshow">
+        <div class='summaryBox'>
+      <h3>{currentSummary}</h3>
+    </div>
       <div className="slide-holder">
           <section className="slide previous-slide">
               <div style={previousSlideStyle} className="slide-thumbnail"></div>
@@ -103,7 +112,8 @@ return (
       <div className="slideshow-controller">
           <span onClick={previous}>Previous</span>
           <span onClick={next}>Next</span>
-      </div>
+    </div>
+
   </section>
 )
 }

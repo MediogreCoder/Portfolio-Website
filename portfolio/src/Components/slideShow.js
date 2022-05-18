@@ -86,12 +86,10 @@ return (
     </div>
       <div className="slide-holder">
           <section className="slide previous-slide">
-              <div style={previousSlideStyle} className="slide-thumbnail"></div>
+              <div onClick={previous} style={previousSlideStyle} className="slide-thumbnail"></div>
           </section>
           <section className="slide current-slide">
         <div style={currentSlideStyle} className="slide-thumbnail"></div>
-        <div>
-        </div>
             <div class='projectSocialDiv'>
               <div>
               <a href={currentLink} target="_blank" rel="noopener noreferrer">
@@ -106,7 +104,7 @@ return (
         </div>
           </section>
           <section className="slide next-slide">
-              <div style={nextSlideStyle} className="slide-thumbnail"></div>
+              <div onClick={next} style={nextSlideStyle} className="slide-thumbnail"></div>
           </section>
     </div>
       <div className="slideshow-controller">
